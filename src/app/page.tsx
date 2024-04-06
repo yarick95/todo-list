@@ -1,7 +1,11 @@
+import CreateTodo from '@/components/CreateTodo';
+import Websocket from '@/components/Websocket';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Home page
+    <main className="flex flex-col pb-10 pt-20">
+      <CreateTodo />
+      <Websocket />
     </main>
   );
 }
